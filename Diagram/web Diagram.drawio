@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T02:05:28.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="JZ0V3gNkKpa4tOHsrAvq" version="15.1.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-13T02:14:35.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="kNAb8iF6oXAwGsEcrPwU" version="15.1.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="ERD-KR">
     <mxGraphModel dx="727" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -403,7 +403,7 @@
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-24" value="EMAIL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-22" vertex="1">
           <mxGeometry x="40" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-25" value="관광지" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
+        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-25" value="TOUR_PLACE" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
           <mxGeometry x="600" y="120" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-26" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-25" vertex="1">
@@ -442,7 +442,7 @@
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-37" value="ADDR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-35" vertex="1">
           <mxGeometry x="40" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-38" value="플래너" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
+        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-38" value="PLANNER" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
           <mxGeometry x="324" y="380" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-38" vertex="1">
@@ -499,7 +499,7 @@
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-53" value="MEMO" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-51" vertex="1">
           <mxGeometry x="40" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-70" value="관광코스" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
+        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-70" value="TOUR_COURSE" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
           <mxGeometry x="600" y="350" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-71" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-70" vertex="1">
@@ -547,7 +547,7 @@
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-85" value="THEMA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;pointerEvents=1;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-83" vertex="1">
           <mxGeometry x="40" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-117" value="평점 및 후기" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
+        <mxCell id="-qLB1NV5AyeXlCn3dFUJ-117" value="RATING_REVIEW" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;pointerEvents=1;fontFamily=Georgia;fontSize=14;" parent="8UNJ_Wr-Wy9jJWkXgi1k-1" vertex="1">
           <mxGeometry x="324" y="120" width="180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="-qLB1NV5AyeXlCn3dFUJ-118" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=1;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Georgia;fontStyle=0;fontSize=14;" parent="-qLB1NV5AyeXlCn3dFUJ-117" vertex="1">
@@ -653,7 +653,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="njvKdvkZfJgR-QRcz4rY" name="Page-3">
+  <diagram id="njvKdvkZfJgR-QRcz4rY" name="UML">
     <mxGraphModel dx="515" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="3MCBnsvEWCMCps6fwJRN-0" />

@@ -10,6 +10,31 @@
 	  <!-- Bootstrap CSS -->
 	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	 
+	  <!--  카카오 로그인 SDK -->
+	  
+	  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+	  <script>
+	  	Kakao.init('d1fec8d8766a8a6cd6d1d7a100d376e0');
+	    	console.log(Kakao.isInitialized());
+	    	
+	    function kakaoLogin() {
+	    	window.Kakao.Auth.login({
+	    		scope:'profile_nickname	, account_email, gender',
+	    		success: function(authObj) {
+	    			console.log(authObj);
+	    			window.Kakao.API.request({
+	    				url: '/v2/user/me',
+	    				success: res => {
+	    					const kakao_account = res.kakao_account;
+	    					console.log(kakao_account);
+	    				}
+	    			})
+	    		}
+	    	});
+	    }  
+	  
+	  </script>
 	  <style>
 	    body {
 	      min-height: 100vh;
@@ -79,7 +104,7 @@
 	          </div>
 	          <div class="mb-4"></div>
 	          <button class="btn btn-primary btn-lg btn-block" type="submit">로그인</button>
-	          
+	          <a href="javascript:kakaoLogin();"><img src="images/kakao_login_large_wide.png"></a>
 		      <ul class="log">
 		      	<li class="log-text"><a href="sign.html" class="">회원가입</a></li>
 		      	<li class="log-text"><a href="" class="">아이디 찾기</a></li>

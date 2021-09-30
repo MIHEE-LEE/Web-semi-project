@@ -4,7 +4,7 @@
 2. GitHub로 가입해 로그인 한다.
 3. `Open Existing Diagram` 버튼으로 클릭하면 내 GitHub 계정의 Repository 목록이 뜬다.
 4. Repository 목록에서 팀프로젝트 Repository인 `junbeomm-park/Web-semi-project`를 선택한다.
-5. Diagram 파일에 들어가 열고싶은 `.drawio`파일을 선택한다.
+5. Diagram 파일에 들어가 열고싶은 파일을 선택한다.
 6. 수정 후 사이트에서 저장 혹은 `Ctrl+S`로 commit 바로 할 수 있다.
 
 ## 기타 주의 사항

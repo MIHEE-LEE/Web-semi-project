@@ -9,7 +9,7 @@
 
 ## 기타 주의 사항
 
-* 포크해온 Repository와 협업으로 등록된 Repository 총 2개가 뜹니다. 꼭 위에 Repository로 선택해주세요!
+* 포크해온 Repository와 협업으로 등록된 Repository 총 2개가 뜹니다. 꼭 `junbeomm-park/Web-semi-project`라는 이름의 Repository로 선택해주세요!
 
 * 우리가 처음에 포크해왔던 Repository는 지우셔도 괜찮을 것 같습니다.
 

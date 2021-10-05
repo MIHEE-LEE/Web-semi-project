@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tour Place</title>
+    <title>DirEngine - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -22,13 +22,14 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
+    <link rel="stylesheet" type="text/css" href="css/review.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
      <!-- favicon -->
    	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    
   </head>
   <body>
     
@@ -41,80 +42,65 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
           <li class="nav-item"><a href="tour.html" class="nav-link">Tour</a></li>
           <li class="nav-item"><a href="review.html" class="nav-link">Review</a></li>
-          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
           <li class="nav-item"><a href="Planner.html" class="nav-link">Planner</a></li>
           <li class="nav-item cta"><a href="login.html" class="nav-link"><span>login</span></a></li>
+          
         </ul>
       </div>
     </div>
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/background-04.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/background-03.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contact Us</h1>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span></p>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Tour &amp; Information</h1>
           </div>
         </div>
       </div>
     </div>
 
-		<section class="ftco-section contact-section ftco-degree-bg">
+
+    <section class="ftco-section bg-light">
       <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-          <div class="col-md-12 mb-4">
-            <h2 class="h4">Contact Information</h2>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-md-3">
-            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-          </div>
-          <div class="col-md-3">
-            <p><span>Website</span> <a href="#">yoursite.com</a></p>
-          </div>
-        </div>
-        <div class="row block-9">
-          <div class="col-md-6 pr-md-5">
-            <form action="#">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          
-          </div>
+	      	<div style="border:2px solid blue; width:100%; height:300px; font-size: 20pt; font-weight: bold;">관광지사진</div>
+	      	<div style="border:2px solid blue; width:100%; height:300px; font-size: 20pt; font-weight: bold;">관광지 상세정보</div>
+	      	<div style="border:2px solid blue; width:100%; height:300px; font-size: 20pt; font-weight: bold;">날씨정보</div>
+	      	<div style="border:2px solid blue; width:100%; height:300px; font-size: 20pt; font-weight: bold;">지도</div>
+	      	<div style="border:2px solid blue; width:100%; height:300px; font-size: 20pt; font-weight: bold;">추천 관광코스</div>
+	      	<div style="border:2px solid blue; width:100%; height:300px; font-size: 20pt; font-weight: bold;">별점&후기 리스트</div>
+	  		<div class="review">
+	  			<div class="star-rating" onlaod="setReview()">
+					<input type="radio" id="5-stars" name="rating" value="5" v-model="ratings"/>
+					<label for="5-stars" class="star pr-4">★</label>
+					<input type="radio" id="4-stars" name="rating" value="4" v-model="ratings"/>
+					<label for="4-stars" class="star">★</label>
+					<input type="radio" id="3-stars" name="rating" value="3" v-model="ratings"/>
+					<label for="3-stars" class="star">★</label>
+					<input type="radio" id="2-stars" name="rating" value="2" v-model="ratings"/>
+					<label for="2-stars" class="star">★</label>
+					<input type="radio" id="1-star" name="rating" value="1" v-model="ratings" />
+					<label for="1-star" class="star">★</label>
+				</div>
+				<div class="review_contents">
+				   	<input type="text" class="review_textarea"/>
+				</div>   
+				<div class="cmd">
+					<input type="button" name="save" id="save" value="등록하기">
+				</div>
+			</div>	
+		</div>
+	</section>
 
-          <div class="col-md-6" id="map"></div>
-        </div>
-      </div>
-    </section>
-
-
-   <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
